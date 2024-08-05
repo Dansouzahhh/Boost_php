@@ -25,9 +25,9 @@ if( $result->num_rows > 0)
                 </tr>
         <?php
         while( $row = $result->fetch_assoc()) {
-                echo "<form action='' method='POST'>";      //added
+                echo "<form action='' method='POST'>";      
                 echo "<input type='hidden' value='". $row['user_id']."' name='userid'/>";
-    //added
+   
                 echo "<tr>";
                 echo "<td>".$row['firstname']. "</td>";
                 echo "<td>".$row['lastname']. "</td>";
@@ -36,7 +36,7 @@ if( $result->num_rows > 0)
                 echo "<td><input type='submit' name='delete' value='Delete' class='btn btn-danger' /></td>"; 
                 echo "<td><a href='edit.php?id=".$row['user_id']."' class='btn btn-info'>Edit</a></td>";
                 echo "</tr>";
-                echo "</form>";//added
+                echo "</form>";
         } 
         ?>
         </table>

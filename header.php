@@ -27,7 +27,7 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
                         <li><a href="insert.php">Add User</a></li>
                         <li><a href="users.php">All Users</a></li>
                     </ul>
-                </div><!--/.nav-collapse -->
-            </div><!--/.container-fluid -->
+                </div>
+            </div>
         </nav>
     </div>              

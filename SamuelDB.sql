@@ -1,4 +1,4 @@
-/*USE samueldb;*/
+/*Use samueldb;*/
 
 CREATE TABLE `users`(
     `user_id` INT(12) NOT NULL AUTO_INCREMENT PRIMARY KEY,
